@@ -54,3 +54,8 @@ stream {
 
 sudo systemctl restart nginx #systemd
 ````
+
+<b>Connect </b>
+````
+ redis-cli -h encrypted.1234id.clustercfg.euw1.cache.amazonaws.com -c -p 6379 --tls -n 0 
+````
